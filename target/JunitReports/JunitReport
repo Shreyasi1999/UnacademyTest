@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="433.153">
+    <testcase classname="feature to test Payment functionality" name="Payment by Debit card method" time="105.274">
+        <system-out><![CDATA[Given Open the browser......................................................passed
+When enter the url..........................................................passed
+And verify whether page is displayed or not.................................passed
+And click the login button..................................................passed
+And enter mobile number.....................................................passed
+And click the login button again............................................passed
+And enter the OTP...........................................................passed
+And click the verify button for the next step...............................passed
+And Click the subscribe button..............................................passed
+And Click the  Subscribtion button..........................................passed
+And Choose one monthly subscribtion plan....................................passed
+And Click the proceed to pay button.........................................passed
+And enter the card number...................................................passed
+And enter the valid through month and year..................................passed
+And enter the CVV...........................................................passed
+And enter the name on the card..............................................passed
+And click procced to pay....................................................passed
+Then check whether user get OTP to respective mobile number.................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test Payment functionality" name="Payment by UPI Method" time="107.341">
+        <system-out><![CDATA[Given Open the browser......................................................passed
+When enter the url..........................................................passed
+And verify whether page is displayed or not.................................passed
+And click the login button..................................................passed
+And enter mobile number.....................................................passed
+And click the login button again............................................passed
+And enter the OTP...........................................................passed
+And click the verify button for the next step...............................passed
+And Click the subscribe button..............................................passed
+And Click the  Subscribtion button..........................................passed
+And Choose one monthly subscribtion plan....................................passed
+And Click the proceed to pay button.........................................passed
+And click the UPI option....................................................passed
+And enter the UPI ID........................................................passed
+And select the bank.........................................................passed
+And click to pay button.....................................................passed
+Then check whether user get payment request to respective UPI application...passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test Payment functionality" name="Payment By Net Banking" time="104.728">
+        <system-out><![CDATA[Given Open the browser......................................................passed
+When enter the url..........................................................passed
+And verify whether page is displayed or not.................................passed
+And click the login button..................................................passed
+And enter mobile number.....................................................passed
+And click the login button again............................................passed
+And enter the OTP...........................................................passed
+And click the verify button for the next step...............................passed
+And Click the subscribe button..............................................passed
+And Click the  Subscribtion button..........................................passed
+And Choose one monthly subscribtion plan....................................passed
+And Click the proceed to pay button.........................................passed
+And user click the Net Banking option.......................................passed
+And user enter the bank for payment.........................................passed
+And user click the pay button for navigate to the banking page..............passed
+Then verify whether user navigate to the respective banking page............passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test Payment functionality" name="Payment by EMI method" time="114.054">
+        <system-out><![CDATA[Given Open the browser......................................................passed
+When enter the url..........................................................passed
+And verify whether page is displayed or not.................................passed
+And click the login button..................................................passed
+And enter mobile number.....................................................passed
+And click the login button again............................................passed
+And enter the OTP...........................................................passed
+And click the verify button for the next step...............................passed
+And Click the subscribe button..............................................passed
+And Click the  Subscribtion button..........................................passed
+And Choose one monthly subscribtion plan....................................passed
+And Click the proceed to pay button.........................................passed
+And click the EMI...........................................................passed
+And click the bank for credit card EMI 'HDFC Bank - Credit card'............passed
+And click the monthly plan option for payment...............................passed
+And click the next button...................................................passed
+And enter  card number '5689073490776587'...................................passed
+And enter  valid through month '05' year '25'...............................passed
+And enter  CVV '345'........................................................passed
+And enter  name on the card 'Shreyasi Das'..................................passed
+And click the procced to pay................................................passed
+Then check whether user get OTP to respective mobile number for verification.passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+    <line>
+      <![CDATA[pass]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-24T14:40:24 IST" name="Default suite" finished-at="2022-06-24T14:47:40 IST" duration-ms="435241">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.com.TestRunner@4d774249]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-24T14:40:24 IST" name="Default test" finished-at="2022-06-24T14:47:40 IST" duration-ms="435241">
+      <class name="org.runner.com.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:40:24 IST" name="setUpClass" finished-at="2022-06-24T14:40:26 IST" duration-ms="1994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77cac3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:40:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:42:12 IST" duration-ms="105755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Payment by Debit card method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test Payment functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:42:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:44:00 IST" duration-ms="107354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Payment by UPI Method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test Payment functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:44:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:45:45 IST" duration-ms="104758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Payment By Net Banking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test Payment functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:45:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-24T14:47:39 IST" duration-ms="114077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Payment by EMI method"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to test Payment functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.runner.com.TestRunner@4d774249]" started-at="2022-06-24T14:47:39 IST" name="tearDownClass" finished-at="2022-06-24T14:47:40 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.runner.com.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
